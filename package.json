@@ -1,0 +1,19 @@
+{
+  "name": "simple-e-commerce",
+  "version": "1.0.0",
+  "description": "Microfrontends architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaliayev-proton/simple-e-commerce.git"
+  },
+  "author": "Víctor Várez Rocha",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/kaliayev-proton/simple-e-commerce/issues"
+  },
+  "homepage": "https://github.com/kaliayev-proton/simple-e-commerce#readme"
+}
