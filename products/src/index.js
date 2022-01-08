@@ -1,10 +1,2 @@
-import faker from "faker";
-
-let products = "";
-
-for (let i = 0; i < 5; i++) {
-  const name = faker.commerce.productName();
-  products += `<div>${name}</div>`;
-}
-
-document.querySelector("#dev-products").innerHTML = products;
+import("./bootstrap"); // importamos el código de forma asíncrona para que Webpack pueda traerse el paquete de faker (los shared) antes de ejecutar bootstrap
+// de este modo puede ejecutar los micros de forma independiente en el navegador

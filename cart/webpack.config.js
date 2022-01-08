@@ -11,8 +11,9 @@ module.exports = {
       name: "cart",
       filename: "remoteEntry.js",
       exposes: {
-        "./CartShow": "./src/index",
+        "./CartShow": "./src/bootstrap",
       },
+      shared: ["faker"], // dato que se está utilizando tambiŕen en el micro de products de este modo sólo se pedirá una vez en cada recarga
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
